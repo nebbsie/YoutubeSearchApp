@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 75%;
+  background-color: antiquewhite;
+  height: 30vh;
+}
+
+#yt_logo {
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+}
+
+#yt_search {
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 25px;
+  padding-left: 25px;
+}

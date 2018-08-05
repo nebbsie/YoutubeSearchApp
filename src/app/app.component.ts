@@ -1,12 +1,14 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 
 @Component({
   selector: "app-root",
   styleUrls: ["./app.component.css"],
-  template: `
-    <h1> {{ title }} </h1>
-  `
+  templateUrl: "./app.component.html"
 })
-export class AppComponent {
-  title = "Youtube App";
+export class AppComponent implements OnInit {
+  videos: string[];
+
+  ngOnInit(): void {
+    this.videos = ["taylor swift", "cats", "fun"];
+  }
 }

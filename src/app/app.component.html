@@ -1,0 +1,13 @@
+<div class="container">
+
+  <img src="assets/yt_logo.png" id="yt_logo">
+
+  <video-search></video-search>
+
+  <ul>
+    <li *ngFor="let video of videos">
+      <video-result [video]="video" ></video-result>
+    </li>
+  </ul>
+
+</div>
